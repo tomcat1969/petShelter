@@ -27,7 +27,7 @@ export default props => {
             <h1>Pet Shelter</h1>
             <h5>Edit {pet.name}</h5>
             
-            <Link to={"/pets"}>back to home</Link>
+            <Link to={"/"}>back to home</Link>
             <hr/>
             {loaded && (
                 

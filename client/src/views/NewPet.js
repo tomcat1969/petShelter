@@ -33,7 +33,7 @@ export default () => {
              {errors.map((err, index) => <p key={index}>{err}</p>)}
             <h1>Pet Shelter</h1>
             <h5>Know a pet needing a home ?</h5>
-            <Link to={"/pets"}>back to home</Link>
+            <Link to={"/"}>back to home</Link>
             <hr/>
            <PetForm onSubmitProp={createPet} initialName="" />
            

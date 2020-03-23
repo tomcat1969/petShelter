@@ -27,7 +27,7 @@ export default props => {
                     alert("description  must be at least 3 characters")
                 }else{
                     onSubmitProp({name,type,description,skill1,skill2,skill3});
-                    navigate("/pets")
+                    navigate("/")
         }
             })
 

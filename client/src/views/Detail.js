@@ -13,9 +13,9 @@ export default props => {
     return (
         <div>
             <h1>Pet Shelter</h1>
-            <h4>Details {pet.name}     <DeleteButton petId={pet._id} successCallback={() => navigate("/pets")}/></h4>
+            <h4>Details {pet.name}     <DeleteButton petId={pet._id} successCallback={() => navigate("/")}/></h4>
             
-            <Link to={"/pets"}>back to home</Link>
+            <Link to={"/"}>back to home</Link>
             <hr/>
             <p> Pet type: {pet.type}</p>
             <p>Description : {pet.description}</p>
